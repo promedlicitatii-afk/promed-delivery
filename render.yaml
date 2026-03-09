@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: promed-delivery
-    runtime: node
-    buildCommand: cd /opt/render/project && npm install && npm run build
-    startCommand: npm start
-    envVars:
-      - key: NODE_ENV
-        value: production
